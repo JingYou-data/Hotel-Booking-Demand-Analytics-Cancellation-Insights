@@ -1,11 +1,11 @@
-# 🏨 Hotel Booking Cancellation Analysis
+📊 Hotel Booking Cancellation Insights — Data Analysis & Business Recommendations
 
-### 📌 Overview
-Hotel cancellations cause revenue uncertainty and operational challenges.  
-This analysis explores **drivers of cancellation behavior** and provides insights for **revenue management & customer strategy**.
+Goal:
+Analyze hotel booking behavior & identify key drivers of reservation cancellations to help hotels reduce revenue loss and improve booking strategy.
 
-### 🎯 Objective
-Identify the most important factors that influence hotel booking cancellations.
+Tools Used: Python, Pandas, Seaborn, Matplotlib
+Modeling Approach: Logistic regression (binary classification)
+Business Focus: Revenue management & cancellation prevention
 
 ### 🔍 Key Questions
 - What % of bookings get canceled?
