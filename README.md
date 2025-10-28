@@ -30,45 +30,46 @@ Business Focus: Revenue management & cancellation prevention
     ├── segment_vs_cancel.png
     ├── deposit_vs_cancel.png
     └── repeatguest_vs_cancel.png
+
 ---
 ## 📊 Key Insights
 
 ### ✅ 1️⃣ 27.8% booking cancellation rate
-<img src="images/cancellation_distribution.png" width="500">
+![](images/cancellation_distribution.png)
 
 Nearly 1 in 3 bookings is canceled → high impact on revenue & forecasting.
 
 ---
 
 ### ✅ 2️⃣ Longer lead-time = higher cancellation
-<img src="images/leadtime_vs_cancel.png" width="500">
+![](images/leadtime_vs_cancel.png)
 
 Guests who book far in advance are more likely to cancel → implement deposit / cancellation policy for early bookings.
 ---
 
 ### ✅ 3️⃣ Higher ADR = higher cancellation
-<img src="images/adr_vs_cancel.png" width="500">
+![](images/adr_vs_cancel.png)
 
 Price-sensitive segment is canceling more → discount ladder or flexible pricing strategy may help.
 
 ---
 
 ### ✅  4️⃣ Online travel agencies & group bookings cancel the most
-<img src="images/segment_vs_cancel.png" width="500">
+![](images/segment_vs_cancel.png)
 
 Online TA cancellations are 2.4× higher than direct bookings → encourage direct booking incentives.
 
 ---
 
 ### ✅ 5️⃣ Deposits dramatically reduce cancellations
-<img src="images/deposit_vs_cancel.png" width="500">
+![](images/segment_vs_cancel.png)
 
 Non-refundable bookings ≈ 95% don't cancel → deposits = strong safety net.
 
 ---
 
 ### ✅ Repeat guests rarely cancel
-<img src="images/repeatguest_vs_cancel.png" width="500">
+![](images/segment_vs_cancel.png)
 
 Loyalty pays off — returning guests are 5x more reliable.
 
