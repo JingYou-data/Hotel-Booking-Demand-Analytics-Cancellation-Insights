@@ -103,5 +103,5 @@ Smart policy + loyalty focus can save revenue & increase stability.
 ---
 Jing You
 Data Analytics | Python | Power BI | Business Strategy
-🔗 LinkedIn: ((https://www.linkedin.com/in/jing-you84/))
-📂 Portfolio: ([add link](https://github.com/JingYou-data))
+🔗 LinkedIn: ((https://www.linkedin.com/in/jing-you84/)
+📂 Portfolio: ((https://github.com/JingYou-data))
