@@ -1,4 +1,4 @@
-📊 Hotel Booking Cancellation Insights — Data Analysis & Business Recommendations
+### 📊 Hotel Booking Cancellation Insights — Data Analysis & Business Recommendations
 
 Goal:
 Analyze hotel booking behavior & identify key drivers of reservation cancellations to help hotels reduce revenue loss and improve booking strategy.
@@ -8,84 +8,100 @@ Modeling Approach: Logistic regression (binary classification)
 Business Focus: Revenue management & cancellation prevention
 
 ### 🔍 Key Questions
-- What % of bookings get canceled?
-- Does booking early increase cancellation risk?
-- Does room price impact cancellations?
-- Which booking channels cancel more?
-- Do deposits and loyalty matter?
+| Question                                          | Why It Matters                       |
+| ------------------------------------------------- | ------------------------------------ |
+| What % of bookings get canceled?                  | Impacts occupancy planning & revenue |
+| Do longer lead-time bookings cancel more?         | Helps optimize booking windows       |
+| Does price (ADR) affect cancellations?            | To understand price sensitivity      |
+| Who cancels more — groups, leisure, or corporate? | Target customer policy adjustment    |
+| Do deposits reduce cancellations?                 | Revenue protection strategy          |
+| Are repeat guests more reliable?                  | Customer value & loyalty insights    |
 
 ---
+### 📂 Project Structure
 
+├── hotel_cancellation_analysis.ipynb   # Analysis notebook
+├── README.md                           # Documentation
+├── requirements.txt                    # Python packages
+└── images/                             # Visuals
+    ├── cancellation_distribution.png
+    ├── leadtime_vs_cancel.png
+    ├── adr_vs_cancel.png
+    ├── segment_vs_cancel.png
+    ├── deposit_vs_cancel.png
+    └── repeatguest_vs_cancel.png
+---
 ## 📊 Key Insights
 
-### ✅ Key Insight #1: Overall Cancellation Rate ~27.7%
-![Cancellation Rate](images/cancellation_rate.png)
+### ✅ 1️⃣ 27.8% booking cancellation rate
+<img src="images/cancellation_distribution.png" width="500">
 
-Nearly **1 in 3 bookings are canceled**, creating major forecasting challenges.
-
----
-
-### ✅ Key Insight #2: Longer Lead Time = Higher Cancellation
-![Lead Time Boxplot](images/lead_time_boxplot.png)
-
-Guests who book **far in advance** are more likely to cancel later.
+Nearly 1 in 3 bookings is canceled → high impact on revenue & forecasting.
 
 ---
 
-### ✅ Key Insight #3: Higher Price Bookings Cancel More
-![ADR Boxplot](images/adr_boxplot.png)
+### ✅ 2️⃣ Longer lead-time = higher cancellation
+<img src="images/leadtime_vs_cancel.png" width="500">
 
-Price-sensitive customers cancel more — dynamic pricing strategy recommended.
+Guests who book far in advance are more likely to cancel → implement deposit / cancellation policy for early bookings.
+---
+
+### ✅ 3️⃣ Higher ADR = higher cancellation
+<img src="images/adr_vs_cancel.png" width="500">
+
+Price-sensitive segment is canceling more → discount ladder or flexible pricing strategy may help.
 
 ---
 
-### ✅ Key Insight #4: Channel Matters (OTA & Groups cancel more)
-![Market Segment Cancellation](images/market_segment_cancellation.png)
+### ✅  4️⃣ Online travel agencies & group bookings cancel the most
+<img src="images/segment_vs_cancel.png" width="500">
 
-| Segment | Cancellation Rate |
-|---|---|
-Groups | ~43% ❗  
-Online TA | ~35% ⬆️  
-Direct / Corporate | ~13-15% ✅  
+Online TA cancellations are 2.4× higher than direct bookings → encourage direct booking incentives.
 
 ---
 
-### ✅ Key Insight #5: Deposit Policy Influences Cancellation
-![Deposit Type Cancellation](images/deposit_type_cancellation.png)
+### ✅ 5️⃣ Deposits dramatically reduce cancellations
+<img src="images/deposit_vs_cancel.png" width="500">
 
-| Deposit Type | Cancellation Rate |
-|---|---|
-No Deposit | ~25%  
-Refundable | ~16%  
-Non Refund | **~96%** 🤯  
+Non-refundable bookings ≈ 95% don't cancel → deposits = strong safety net.
 
 ---
 
-### ✅ Key Insight #6: Repeat Guests Rarely Cancel
-![Repeat Guest Cancellation](images/repeat_guest_cancellation.png)
+### ✅ Repeat guests rarely cancel
+<img src="images/repeatguest_vs_cancel.png" width="500">
 
-Repeat guests cancel **~6% vs ~29%** for new guests → loyalty matters!
+Loyalty pays off — returning guests are 5x more reliable.
 
 ---
 
 ## 💡 Business Recommendations
 
-| Strategy | Purpose |
-|---|---|
-Require deposit/pre-auth for OTA / groups | Reduce speculative bookings |
-Prioritize loyalty guests | Stable revenue + lower cancellation |
-Monitor far-future reservations | Reduce peak-date overbooking risk |
-Dynamic pricing rules | Reduce price-driven cancellations |
-Risk flag model | Prioritize follow-ups |
+| Insight                                     | Recommendation                                             |
+| ------------------------------------------- | ---------------------------------------------------------- |
+| Long booking lead time → high cancellations | Require deposit or stricter terms for long-window bookings |
+| Online OTA highest cancel source            | Push direct booking discounts & loyalty perks              |
+| High-ADR cancellations                      | Offer refundable rate add-on, tier pricing                 |
+| Repeat guests low cancellations             | Reward loyal users, pre-approve flexible cancellation      |
+| Non-refund policies work                    | Increase non-refundable options w/ perks                   |
 
 ---
 
-## 🧠 Tech Stack
-- Python  
-- Pandas, NumPy  
-- Matplotlib, Seaborn  
-- Jupyter Notebook
+## 🚀 Next Steps (Future Work)
+
+Build predictive model to score cancellation likelihood
+Add Power BI dashboard
+Create automated cancellation risk alerts for hotel CRM
+Deploy as API (FastAPI) for hotel booking systems
 
 ---
 
-## 📁 Project Structure
+## 💡 Key Takeaway
+
+Data shows cancelers behave differently — pricing, booking channel, & lead time explain most cancellations.
+Smart policy + loyalty focus can save revenue & increase stability.
+
+---
+Jing You
+Data Analytics | Python | Power BI | Business Strategy
+🔗 LinkedIn: ((https://www.linkedin.com/in/jing-you84/))
+📂 Portfolio: ([add link](https://github.com/JingYou-data))
