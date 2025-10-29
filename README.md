@@ -17,19 +17,21 @@ Business Focus: Revenue management & cancellation prevention
 | Do deposits reduce cancellations?                 | Revenue protection strategy          |
 | Are repeat guests more reliable?                  | Customer value & loyalty insights    |
 
+
 ---
 ### 📁 Project Structure
 
-**├── hotel_cancellation_analysis.ipynb # Analysis notebook…
-**├── README.md # Documentation…
-**├── requirements.txt # Python packages…
-**└── images/ # Visuals
+hotel_cancellation_analysis.ipynb   # Main analysis notebook
+README.md                           # Project documentation
+requirements.txt                    # Python dependencies
+images/                             # Visualizations
 ├── cancellation_distribution.png
 ├── leadtime_vs_cancel.png
 ├── adr_vs_cancel.png
 ├── segment_vs_cancel.png
 ├── deposit_vs_cancel.png
 └── repeatguest_vs_cancel.png
+
 
 ---
 ## 📊 Key Insights
