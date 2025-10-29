@@ -20,16 +20,17 @@ Business Focus: Revenue management & cancellation prevention
 ---
 ### 📁 Project Structure
 
-├── hotel_cancellation_analysis.ipynb # Analysis notebook
-├── README.md # Documentation
-├── requirements.txt # Python packages
-└── images/ # Visuals
+**├── hotel_cancellation_analysis.ipynb # Analysis notebook…
+**├── README.md # Documentation…
+**├── requirements.txt # Python packages…
+**└── images/ # Visuals
 ├── cancellation_distribution.png
 ├── leadtime_vs_cancel.png
 ├── adr_vs_cancel.png
 ├── segment_vs_cancel.png
 ├── deposit_vs_cancel.png
 └── repeatguest_vs_cancel.png
+
 ---
 ## 📊 Key Insights
 
